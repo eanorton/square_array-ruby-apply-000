@@ -1,6 +1,6 @@
 def square_array(array)
   array = [ ]
-  array.each do |x|
-    x *= 2
-    print "#{x} "
+  array.each do |n|
+    n ** 2
+    print "#{n} "
 end
